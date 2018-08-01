@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljheee.tk.mapper.UserInfoMapper">
+  <resultMap id="BaseResultMap" type="com.ljheee.tk.model.UserInfo">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="passwd" jdbcType="VARCHAR" property="passwd" />
+    <result column="age" jdbcType="INTEGER" property="age" />
+    <result column="appid" jdbcType="INTEGER" property="appid" />
+  </resultMap>
+</mapper>
